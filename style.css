@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.button-layout {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "cdisplay cdisplay cdisplay cdisplay"
+    "AC C div times"
+    "seven eight nine minus"
+    "four five six plus"
+    "one two three equal"
+    "zero zero dot equal"
+    ;
+    background-color: grey;
+}
+
+.cbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px;
+    background-color: grey;
+    color: #ffffff;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.zero {
+    grid-area: zero;
+}
+
+.equal {
+    grid-area: equal;
+}
+
+.cdisplay {
+    grid-area: cdisplay;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.numbers {
+    background-color: #576574;
+}
+
+.numbers:hover {
+    background-color: #222f3e;
+}
+
+.clears {
+    background-color: #ff7675;
+}
+
+.clears:hover {
+    background-color: #d63031;
+}
+
+.oper:hover {
+    background-color: #30336b;
+}
+
+.equals {
+    background-color: #74b9ff;
+}
+
+.equals:hover {
+    background-color: #22a6b3;
+}
+
+.finalans {
+    padding: 20px 20px;
+    color: yellow;
+    text-align: right;
+}
+
+.input {
+    background-color: black;
+    text-align: right;
+    width: 98%;
+    color: white;
+    padding: 5px 1px;
+}
+
+#heading {
+    background-color:cadetblue;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: monospace;
+}
