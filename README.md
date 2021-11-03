@@ -1,2 +1,2 @@
 # jscalculator.github.io
-Javascript calculator for freeCodeCamp project.
+Javascript calculator built with React!
